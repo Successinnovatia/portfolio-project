@@ -10,14 +10,16 @@ const Projects = () => {
   }
 
   return (
-    <section className="py-10 align-element bg-base-200" id="projects">
-      <SectionTitle text="web creations" headerColor="text-base-content" />
-      <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
-        {projects.map((project) => {
-          return <ProjectCard key={project.id} {...project} />;
-        })}
+    <section className="bg-base-200 py-10" id="projects">
+      <div className="align-element">
+        <SectionTitle text="web creations" headerColor="text-base-content" />
+        <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          {projects.map((project) => {
+            return <ProjectCard key={project.id} {...project} />;
+          })}
+        </div>
+        <DownLoadButton />
       </div>
-      <DownLoadButton />
     </section>
   );
 };
