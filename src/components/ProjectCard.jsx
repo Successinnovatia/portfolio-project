@@ -5,10 +5,11 @@ const ProjectCard = ({ url, img, github, title, text }) => {
   return (
     <article className="bg-base-200 rounded-lg shadow-md transition-all ease-in-out hover:shadow-xl hover:scale-[1.02] duration-300">
       <img
-        src={img}
-        alt={title}
-        className="w-full object-cover rounded-t-lg h-64"
-      />
+          src={img}
+          alt={title}
+          className="w-full h-64 rounded-t-lg"
+        />
+      
       <div className="capitalize p-8">
         <h2 className="text-x tracking-wide font-medium">{title}</h2>
         <p className="text-slate-500 mt-4 leading-loose">{text}</p>

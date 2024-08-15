@@ -38,13 +38,17 @@ To run this project locally, follow these steps:
    npm install
    ```
 
-4. **Start the development server:**
+4. **Add environmental variables**
+   ```
+   rename the .env-example file to .env and add your environmental variables from contentful
+   ```
+5. **Start the development server:**
 
    ```bash
    npm start
    ```
 
-5. **Build the project for production:**
+6. **Build the project for production:**
    ```bash
    npm run build
    ```
