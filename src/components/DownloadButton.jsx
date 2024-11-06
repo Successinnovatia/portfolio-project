@@ -4,7 +4,8 @@ const DownLoadButton = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1hp5YSLoPiAKV4A44UBdc5o9MOKfTwEzD";
+      "https://drive.google.com/uc?export=download&id=1GwauUuwBAoMECPlc4gM1O76qhxJ385LH";
+      
 
     link.download = "resume.pdf";
 

@@ -1,6 +1,9 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact, FaPython } from "react-icons/fa";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { RiTailwindCssFill} from "react-icons/ri";
+import { RiNextjsLine } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 
 export const textSets = [
   ["A Software Developer", "Turning Ideas Into Interactive Reality"],
@@ -45,21 +48,27 @@ export const socialLinks = [
 export const skills = [
   {
     id: nanoid(),
-    title: "HTML&CSS",
-    icon: <FaHtml5 className="h-16 w-16 text-accent" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    title: "TailwindCSS",
+    icon: <RiTailwindCssFill className="h-16 w-16 text-accent" />,
+    text: "Experienced in TailwindCSS, creating responsive, custom-styled interfaces efficiently with a utility-first approach",
   },
   {
     id: nanoid(),
-    title: "Javascript",
-    icon: <FaJs className="h-16 w-16 text-accent" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    title: "Typescript",
+    icon: <SiTypescript className="h-16 w-16 text-accent" />,
+    text: "Skilled in TypeScript for building reliable, scalable web applications, with experience in React and Next.js integration",
   },
   {
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-accent" />,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+  },
+  {
+    id: nanoid(),
+    title: "Next Js",
+    icon: <RiNextjsLine className="h-16 w-16 text-accent" />,
+    text: "Proficient in Next.js, building fast, SEO-friendly web applications with optimized server-side rendering and API integration.",
   },
   {
     id: nanoid(),
